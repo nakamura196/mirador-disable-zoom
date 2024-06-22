@@ -4,7 +4,7 @@
 
 <!-- [![npm version](https://badge.fury.io/js/mirador-disable-zoom.svg)](https://badge.fury.io/js/mirador-disable-zoom) -->
 
-`mirador-disable-zoom` is a [Mirador 3](https://github.com/projectmirador/mirador) plugin that allows users to disable (and re-enable) zoom controls per window.
+`mirador-disable-zoom` is a [Mirador 4](https://github.com/projectmirador/mirador) plugin that allows users to disable (and re-enable) zoom controls per window.
 
 This plugin is based on the [mirador-disable-zoom](https://github.com/UCLALibrary/mirador-disable-zoom) plugin by UCLA Library.
 
@@ -40,7 +40,7 @@ const config = {
 
 ## Installing `mirador-disable-zoom`
 
-`mirador-disable-zoom` requires an instance of Mirador 3. See the [Mirador wiki](https://github.com/ProjectMirador/mirador/wiki) for examples of embedding Mirador within an application. See the [live demo's index.js](https://github.com/ProjectMirador/mirador-disable-zoom/blob/master/demo/src/index.js) for an example of importing the `mirador-disable-zoom` plugin and configuring the adapter.
+`mirador-disable-zoom` requires an instance of Mirador 4. See the [Mirador wiki](https://github.com/ProjectMirador/mirador/wiki) for examples of embedding Mirador within an application. See the [live demo's index.js](https://github.com/ProjectMirador/mirador-disable-zoom/blob/master/demo/src/index.js) for an example of importing the `mirador-disable-zoom` plugin and configuring the adapter.
 
 ## Contribute
 
