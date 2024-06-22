@@ -48,9 +48,9 @@ describe('MiradorDisableZoomMenuItem', () => {
 
     const button = screen.getByRole('button');
     fireEvent.click(button);
-    expect(mockUpdateWindow).toHaveBeenCalledWith(windowId, { DisableZoomEnabled: false });
+    expect(mockUpdateWindow).toHaveBeenCalledWith(windowId, { disableZoomEnabled: false });
 
     fireEvent.click(button);
-    expect(mockUpdateWindow).toHaveBeenCalledWith(windowId, { DisableZoomEnabled: true });
+    expect(mockUpdateWindow).toHaveBeenCalledWith(windowId, { disableZoomEnabled: true });
   });
 });

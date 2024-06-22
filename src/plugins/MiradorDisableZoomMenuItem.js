@@ -9,7 +9,7 @@ const MiradorDisableZoomMenuItem = ({
   enabled, t, updateWindow, windowId,
 }) => {
   const handleClickOpen = () => {
-    updateWindow(windowId, { DisableZoomEnabled: !enabled });
+    updateWindow(windowId, { disableZoomEnabled: !enabled });
   };
 
   return (
