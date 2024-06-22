@@ -35,8 +35,7 @@
     "react-redux": "^9.1.2",
     "react-sizeme": "^3.0.2",
     "redux": "^5.0.1",
-    "redux-thunk": "^3.1.0",
-    "styles": "link:@mui/material/styles"
+    "redux-thunk": "^3.1.0"
   },
   "peerDependencies": {
     "@mui/material": "^5.x",
