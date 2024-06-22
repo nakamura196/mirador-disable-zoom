@@ -15,11 +15,12 @@ const MiradorDisableZoomMenuItem = ({
   return (
     <MiradorMenuButton
       onClick={handleClickOpen}
-      aria-label={enabled ? t('disableZoom') : t('enableZoom')}
+      aria-label={enabled ? t('enableZoom') : t('disableZoom')}
       variant="contained"
       color={enabled ? 'primary' : 'default'}
     >
       {enabled ? <LockIcon /> : <LockOpenIcon />}
+
     </MiradorMenuButton>
 
   );

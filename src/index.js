@@ -11,13 +11,9 @@ export const miradorDisableZoomPlugin = [
     component: MiradorDisableZoom,
     mapStateToProps: (state, { windowId }) => ({
       enabled: getWindowConfig(state, { windowId }).disableZoomEnabled || false,
-    }),
-    config: {
-      translations,
-    },
+    })
   },
   {
-    // target: 'WindowTopBarPluginMenu',
     target: 'WindowTopBarPluginArea',
     component: MiradorDisableZoomMenuItem,
     mode: 'add',
@@ -27,5 +23,8 @@ export const miradorDisableZoomPlugin = [
     mapStateToProps: (state, { windowId }) => ({
       enabled: getWindowConfig(state, { windowId }).disableZoomEnabled || false,
     }),
+    config: {
+      translations,
+    },
   },
 ];

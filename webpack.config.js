@@ -77,7 +77,7 @@ module.exports = (env, options) => {
     output: {
       filename: 'demo.js',
       path: path.join(__dirname, 'demo/dist'),
-      publicPath: './'
+      publicPath: options.mode === "development" ? '/mirador-disable-zoom/' : '/',
     },
     devServer: {
       hot: true,
