@@ -77,7 +77,7 @@ module.exports = (env, options) => {
     output: {
       filename: 'demo.js',
       path: path.join(__dirname, 'demo/dist'),
-      publicPath: '/'
+      publicPath: './'
     },
     devServer: {
       hot: true,

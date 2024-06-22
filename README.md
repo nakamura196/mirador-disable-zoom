@@ -1,7 +1,8 @@
 # mirador-disable-zoom
 
 ![Node.js CI](https://github.com/nakamura196/mirador-disable-zoom/workflows/Node.js%20CI/badge.svg)
-[![npm version](https://badge.fury.io/js/mirador-disable-zoom.svg)](https://badge.fury.io/js/mirador-disable-zoom)
+
+<!-- [![npm version](https://badge.fury.io/js/mirador-disable-zoom.svg)](https://badge.fury.io/js/mirador-disable-zoom) -->
 
 `mirador-disable-zoom` is a [Mirador 3](https://github.com/projectmirador/mirador) plugin that allows users to disable (and re-enable) zoom controls per window.
 
